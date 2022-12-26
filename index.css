@@ -1,0 +1,112 @@
+/* general styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* reset */
+a {
+  text-decoration: none;
+  /* color: inherit; */
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+}
+
+:root {
+  /* font family */
+  --ff-1: 'STIX Two Text', serif;
+  --ff-2: 'Clash Display', sans-serif;
+  --ff-3: 'Satoshi', sans-serif;
+  --ff-4: 'Rubik', sans-serif;
+  --ff-5: 'Baskervville', serif;
+  --ff-6: 'Bellefair', serif;
+  --ff-7: 'Poppins', sans-serif;
+
+  /* font weight */
+  --fw-1: 500;
+  --fw-2: 600;
+  --fw-3: 700;
+  --fw-4: 800;
+
+  /* font size */
+  --fs-0: 14px;
+  --fs-2: 16px;
+  --fs-3: 22px;
+  --fs-4: 24px;
+  --fs-5: 26px;
+  --fs-6: 28px;
+  --fs-7: 30px;
+  --fs-8: 32px;
+  --fs-9: 40px;
+  --fs-10: 48px;
+  --fs-11: 55px;
+  --fs-12: 60px;
+  --fs-13: 62px;
+  --fs-14: 68px;
+
+
+  /* transition */
+  --transition-1: all ease 0.4s;
+  --transition-2: all ease 0.8s;
+
+
+}
+
+.light-mode {
+  
+/* colors */
+--reddish: #e31616;
+--blackish-1: #292929;
+--blackish-2: #333333;
+--blackish-3: #616161;
+--blackish-4: #161616;
+--black: #000000;
+--white: #ffffff;
+--whitish-1: #e1e1e1;
+--whitish-2: #f5f5f5;
+--background: #1e1e1e;
+--blueish: #4693ed;
+--greyish-bg: #aeaeae;
+--greyish-2: #e2e2e2;
+
+--gradient-bg: linear-gradient(99.99deg, #4693ED -26.21%, #79C2D2 22.16%, rgba(192, 86, 9, 0.49) 111.62%);
+}
+
+body {
+  width: 100%;
+  /* height: 100%; */
+  font-family: var(--ff-3);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.navlinks {
+  width: fit-content;
+  color: var(--blackish-1);
+}
