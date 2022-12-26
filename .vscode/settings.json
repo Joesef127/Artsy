@@ -18,5 +18,9 @@
     "titleBar.inactiveBackground": "#70ac5d99",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#70ac5d"
+  "peacock.color": "#70ac5d",
+  "githubPullRequests.remotes": [
+    "https://github.com/Joesef127/Artsy",
+    "upstream"
+  ]
 }
